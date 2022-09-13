@@ -10,5 +10,5 @@ Then, the neural network predicts where it is located in the US. This prediction
 In this map, a lighter color means the AI is more confident in that location. The '+' icon represents the area of highest confidence.<br/>
 According to my testing, the AI is only around 500 miles off on average, which is pretty good considering it only has one small image to work with. That's significantly better than a human like me.
 ## How does it work?
-This AI utilizes a convolutional neural network to make predictions. This means that it is visually determining the location of the image. For outputting guesses, the neural network uses one-hot encoding over 1,416 outputs to estimate the latitude and longitude of an image to the nearest degree. <br/>
+This AI utilizes a convolutional neural network to make predictions. This means that it is determining the location of the image entirely using visual data. For generating guesses, the neural network uses one-hot encoding over 1,416 outputs to estimate the latitude and longitude of an image to the nearest degree. <br/>
 Note: due to file limitations on github, the training data and models are not included in this repository
